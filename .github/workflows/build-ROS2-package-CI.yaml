@@ -11,7 +11,7 @@ permissions: read-all
 jobs:
 
   build_lrs_ros2_package:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 45
     strategy:
       # Lyrical can hit transient upstream availability issues during the
